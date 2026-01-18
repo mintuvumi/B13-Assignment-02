@@ -1,3 +1,61 @@
-body{
-  background-color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+
+.text-main-color{
+  color: #FFFFFF;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-image: url(./assets/hero-bg.png);
+  
+}
+.logo{
+  color: rgba(255, 255, 255, 1);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo-color{
+  color: rgba(251, 9, 178, 0.952);
+}
+.nav-menu{
+  gap: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  
+
+}
+.btn-primary{
+  border-radius: 12px;
+  background-color: rgba(#F7E93F, #FB09B4, #9100F8);
+  
+}
+  
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner{
+  width: 100%;
+  top: 80vb;
+  right: 80vb;
 }
