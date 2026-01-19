@@ -8,30 +8,143 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="work-sans-font">
+<body class="work-sans-font"> 
     <header>
          <nav class="navbar display-flex">
-          <h2 class="logo">Tech<span class="logo-color">Wave</span></h2>
+          <h2 class=" text-main-color">Tech<span class="logo-color">Wave</span></h2>
           <ul class="nav-menu display-flex text-main-color">
             <li class="nav-item"><a href="">About</a></li>
             <li class="nav-item"><a href="">Episodes</a></li>
             <li class="nav-item"><a href="">Host</a></li>
           </ul>
-          <button class="btn-primary text-main-color">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+          <button class="btn-group text-main-color">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
          </nav> 
 
-         <div class="banner">
-          <img src="./assets/hero-bg.png" alt="">
-          <img src="./assets/hero-circle.png" alt="">
-          <h1 class="banner-title"></h1>
-          <p class="b-discription">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-          <button class="btn-primary"> <img src="./assets/spotify.png" alt="">Listen on Spotify</button>
-          <button class="btn-primary"><i class="fa-sharp fa-light fa-circle-envelope"></i>Subscribe</button>
-         </div>
+         
     </header>
-    <main>
+    <section class="hero">
+      <div class="banner-images">
+            <img class="hero-circle" src="./assets/hero-circle.png" alt="">
 
-    </main>
+            <img class="hero-microphone"  src="./assets/microphone.png" alt="">
+              <h1 class="banner-title text-main-color">TechWave</h1>
+              <p class="b-discription text-main-color">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+              <div class="btn">
+                <button class="btn-main"> <img class="btn-icon" src="./assets/spotify.png" alt="">Listen on Spotify</button>
+
+              <button class="btn-primary"><img        class="btn-icon" src="./assets/message.png" alt=""></i>Subscribe</button>
+              </div>
+         </div>
+    </section>
+    <section>
+      <div class="Podcast">
+        <h1 class="title-podcast text-main-color">About the Podcast</h1>
+            <p class="text-para" text-main-color>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+        <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+            and share stories of personal growth from industry leaders.</p>
+            <br>
+            <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+      </div>
+
+      <div class="container flex">
+        <div class="div-container">
+          <h3>200+</h3>
+          <p>Episodes Published</p>
+        </div>
+        <div class="div-container">
+          <h3>4.9<i class="fa-solid fa-star"></i></h3>
+          <p>Average Rating</p>
+        </div>
+        <div class="div-container">
+          <h3>50+</h3>
+          <p>Industry Experts</p>
+        </div>
+        <div class="div-container">
+          <h3>150K+</h3>
+          <p>Monthly Listeners</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="grid-card">
+      <h3 class="why-choose text-main-color">Why Choose TechWave</h3>
+     <nav class="grid-container">
+         <div class="container-choose">
+          <img src="./assets/headphone.png" alt="">
+          <h4 class="Premium text-main-color">Premium Audio Quality</h4>
+          <p class="Premium-para text-main-color">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+      </div>
+
+      <div class="container-choose">
+        <img src="./assets/device.png" alt="">
+        <h4 class="Premium text-main-color">Mobile Friendly</h4>
+        <p class="Premium-para text-main-color">Listen on the go with seamless mobile experience and offline downloads.</p>
+      </div> 
+
+      <div class="container-choose">
+        <img src="./assets/location.png" alt="">
+        <h4 class="Premium text-main-color">Global Community</h4>
+        <p class="Premium-para text-main-color">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+      </div>
+
+      <div >
+      <div class="container-choose">
+        <img src="./assets/headphone.png" alt="">
+        <h4 class="Premium text-main-color">Exclusive Interviews</h4>
+        <p class="Premium-para text-main-color">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+      </div>
+
+      <div >
+      <div >
+      <div class="container-choose">
+        <img src="./assets/resource.png" alt="">
+        <h4 class="Premium text-main-color">Rich Resources</h4>
+        <p class="Premium-para text-main-color">Access show notes, transcripts, and additional learning materials for every episode..</p>
+      </div>
+     </nav>
+
+    </section>
+
+    <section class="feature">
+      
+      <nav class="content">
+        <div class="content-container">
+          <iframe src="https://www.youtube.com/embed/PoEYp5uZDgA" allowfullscreen></iframe>
+          <h5 class="Premium text-main-color">The Future of AI in Everyday Life</h5>
+          <p class="Premium-para text-main-color">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+            <div class="time">
+              <img src="./assets/clock.png" alt="">
+              <span>42 min</span>
+            </div>
+        <div class="content-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/H5zSQ9M_s2Y?si=pBV_CixVIdXXv2W2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <h5 class="Premium text-main-color">Building Better Habits for Remote Work</h5>
+          <p class="Premium-para text-main-color">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+          <div class="time">
+            <img src="./assets/clock.png" alt="">
+            <span>35 min</span>
+          </div>
+        <div class="content-container">
+          <iframe
+                   width="315"
+                   height="360"
+                   src="https://www.youtube.com/embed/nokXnYaqswU"
+                   frameborder="0"
+                   allowfullscreen>
+          </iframe>
+
+          <h5 class="Premium text-main-color">Career Growth in Tech: A Roadmap</h5>
+          <p class="Premium-para text-main-color">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+          <div class="time">
+             <img src="./assets/clock.png" alt="">
+             <span>51 min</span>
+
+          </div>
+      </div>
+      </nav>
+
+    </section>
     <footer>
 
     </footer>
