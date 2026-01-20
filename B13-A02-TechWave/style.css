@@ -220,3 +220,94 @@
 .Premium .Premium-para{
   display: flex;
 }
+
+.iframe-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1A0B2E;
+}
+
+.iframe-card {
+  background-color: #2b075a;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.iframe-card iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+.iframe-content {
+  padding: 15px;
+}
+
+.iframe-content h5 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.span-min  {
+  color: #00FF88;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+
+
+
+.span-min img {
+  width: 20px;
+  height: 20px;
+  color: #00FF88;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.div-container-host{
+  display: flex;
+  background-color: #1A0B2E;
+}
+.host-card{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  justify-content: space-around;
+  max-width: 1440px;
+}
+.host-title{
+  font-size: 3rem;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+}
+.social-icon .fa-brands{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 10px;
+  line-height: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+}
+
+.footer-item{
+  display: flex;
+  background-image: url(./assets/footer-bg.png);
+}
+.span-min{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom{
+  padding: 20px;
+}
